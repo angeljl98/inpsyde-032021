@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165.92" height="46.437"
+     viewBox="0 0 165.92 46.437">
+    <defs>
+        <linearGradient id="linear-gradient" x1="-0.082" y1="1.269" x2="0.898" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffcfaa"/>
+            <stop offset="1" stop-color="#fa6eb9"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <rect width="165.92" height="46.437" fill="none"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <circle id="Oval" cx="23.218" cy="23.218" r="23.218" fill="url(#linear-gradient)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <circle id="Oval_Copy_61" data-name="Oval Copy 61" cx="18.483" cy="18.483" r="18.483" fill="#fff"
+                    opacity="0.2"/>
+        </clipPath>
+    </defs>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+        <g id="Group_186" data-name="Group 186" transform="translate(-318.325 -14.421)">
+            <g id="Group_2" data-name="Group 2" transform="translate(316.5 13)">
+                <g id="Group_1" data-name="Group 1">
+                    <g id="Clock" transform="translate(1.825 1.421)">
+                        <g id="Oval_2" data-name="Oval 2" transform="translate(0 0)">
+                            <circle id="Oval-2" data-name="Oval" cx="23.218" cy="23.218" r="23.218"
+                                    fill="url(#linear-gradient)"/>
+                            <circle id="Oval_Copy_61-2" data-name="Oval Copy 61" cx="18.483" cy="18.483" r="18.483"
+                                    transform="translate(4.735 4.735)" fill="#fff" opacity="0.2"/>
+                        </g>
+                    </g>
+                    <path id="Path" d="M3.305,11.04a5.8,5.8,0,1,1,4.993,0L9.669,17.9H1.934L3.305,11.04Z"
+                          transform="translate(18.926 16.228)" fill="#fff" opacity="0.5"/>
+                </g>
+                <text id="LOGO" transform="translate(56.745 33.239)" fill="#3f4658" font-size="20"
+                      font-family="Nunito Sans, sans-serif" font-weight="900" letter-spacing="0.23em">
+                    <tspan x="0" y="0">SSL</tspan>
+                </text>
+                <text id="LOGO-2" data-name="LOGO" transform="translate(112.745 33.239)" fill="#3f4658" font-size="20"
+                      font-family="Nunito Sans, sans-serif" font-weight="900" letter-spacing="0.23em">
+                    <tspan x="0" y="0">ZEN</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

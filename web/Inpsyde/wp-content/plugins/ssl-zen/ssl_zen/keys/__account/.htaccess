@@ -1,0 +1,13 @@
+
+# BEGIN SSL_ZEN
+# The directives (lines) between `BEGIN SSL_ZEN` and `END SSL_ZEN` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<ifModule mod_authz_core.c>
+    Require all denied
+</ifModule>
+<ifModule !mod_authz_core.c>
+    Deny from all
+</ifModule>
+
+# END SSL_ZEN

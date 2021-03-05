@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="439.198" height="291.251" viewBox="0 0 439.198 291.251">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.082" y1="1.269" x2="-0.004" y2="-0.025" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff90d7"/>
+      <stop offset="1" stop-color="#906efa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.704" y1="-0.081" x2="0.215" y2="0.926" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39abc5"/>
+      <stop offset="1" stop-color="#a8eb9d"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path" d="M17.124,0H422.073A17.124,17.124,0,0,1,439.2,17.124v257a17.124,17.124,0,0,1-17.124,17.124H17.124A17.124,17.124,0,0,1,0,274.127v-257A17.124,17.124,0,0,1,17.124,0Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="0.235" y1="1.27" x2="0.726" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#373f87" stop-opacity="0.51"/>
+      <stop offset="1" stop-color="#2b3171"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Path-2" data-name="Path" d="M3.788,0h17.42a2.273,2.273,0,0,1,1.537.6L33.738,10.688a2.273,2.273,0,0,1,.736,1.675V37.884a3.788,3.788,0,0,1-3.788,3.788H3.788A3.788,3.788,0,0,1,0,37.884V3.788A3.788,3.788,0,0,1,3.788,0Z" transform="translate(0.302 0.018)" fill="url(#linear-gradient-2)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="0.906" y1="-0.091" x2="0.5" y2="0.892" xlink:href="#linear-gradient-4"/>
+  </defs>
+  <g id="Group_189" data-name="Group 189" transform="translate(-104.728 -816.749)">
+    <g id="Dashboard_4" data-name="Dashboard 4" transform="translate(103.962 816.736)">
+      <path id="Path-3" data-name="Path" d="M17.124,0H422.073A17.124,17.124,0,0,1,439.2,17.124v257a17.124,17.124,0,0,1-17.124,17.124H17.124A17.124,17.124,0,0,1,0,274.127v-257A17.124,17.124,0,0,1,17.124,0Z" transform="translate(0.766 0.013)" fill="url(#linear-gradient)"/>
+      <g id="Dashboard_4-2" data-name="Dashboard 4" transform="translate(0.766 0.013)" clip-path="url(#clip-path)">
+        <g id="Group_25" data-name="Group 25" transform="translate(55.576 95.048)">
+          <path id="Path-4" data-name="Path" d="M11.416,0h182.66a11.416,11.416,0,0,1,11.416,11.416V125.579a11.416,11.416,0,0,1-11.416,11.416H11.416A11.416,11.416,0,0,1,0,125.579V11.416A11.416,11.416,0,0,1,11.416,0Z" transform="translate(0 11.416)" fill="#373a5b" opacity="0.1"/>
+          <path id="Path-5" data-name="Path" d="M11.416,0h182.66a11.416,11.416,0,0,1,11.416,11.416V125.579a11.416,11.416,0,0,1-11.416,11.416H11.416A11.416,11.416,0,0,1,0,125.579V11.416A11.416,11.416,0,0,1,11.416,0Z" transform="translate(0 0)" fill="#fff"/>
+          <g id="Group_26" data-name="Group 26" transform="translate(155.654 20.672)">
+            <path id="Oval" d="M14.343,28.476A14.238,14.238,0,1,1,28.687,14.235,14.308,14.308,0,0,1,14.343,28.476Zm0-18.2a3.965,3.965,0,1,0,4.069,3.961A4.02,4.02,0,0,0,14.343,10.275Z" transform="translate(0 0)" fill="#fb8fb4"/>
+          </g>
+        </g>
+        <path id="Path-6" data-name="Path" d="M17.124,0H422.073A17.124,17.124,0,0,1,439.2,17.124V47.9H0V17.124A17.124,17.124,0,0,1,17.124,0Z" fill="#fff" opacity="0.2"/>
+        <circle id="Oval-2" data-name="Oval" cx="5.708" cy="5.708" r="5.708" transform="translate(26.809 18.241)" fill="#99ff87"/>
+        <circle id="Oval_Copy_58" data-name="Oval Copy 58" cx="5.708" cy="5.708" r="5.708" transform="translate(49.642 18.241)" fill="#9b71f6"/>
+        <circle id="Oval_Copy_59" data-name="Oval Copy 59" cx="5.708" cy="5.708" r="5.708" transform="translate(72.474 18.241)" fill="#9b71f6"/>
+      </g>
+    </g>
+    <g id="VIdeo" transform="translate(197.217 972)">
+      <path id="Path-7" data-name="Path" d="M7.564,0h26.38a4,4,0,0,1,3.712,5.489l-3.564,8.884a4,4,0,0,1-3.712,2.511H4A4,4,0,0,1,.288,11.4L3.851,2.511A4,4,0,0,1,7.564,0Z" transform="translate(1.914 35.116)" fill="url(#linear-gradient-4)"/>
+      <g id="Group_4_Copy" data-name="Group 4 Copy" transform="translate(9.16)">
+        <path id="Path-8" data-name="Path" d="M3.788,0h17.42a2.273,2.273,0,0,1,1.537.6L33.738,10.688a2.273,2.273,0,0,1,.736,1.675V37.884a3.788,3.788,0,0,1-3.788,3.788H3.788A3.788,3.788,0,0,1,0,37.884V3.788A3.788,3.788,0,0,1,3.788,0Z" transform="translate(0.302 0.018)" fill="url(#linear-gradient-2)"/>
+        <g id="Group_4_Copy-2" data-name="Group 4 Copy" clip-path="url(#clip-path-2)">
+          <path id="Path_Copy" data-name="Path Copy" d="M3.788,0h17.42a2.273,2.273,0,0,1,1.537.6L33.738,10.688a2.273,2.273,0,0,1,.736,1.675V37.884a3.788,3.788,0,0,1-3.788,3.788H3.788A3.788,3.788,0,0,1,0,37.884V3.788A3.788,3.788,0,0,1,3.788,0Z" transform="translate(21.888 -29.67)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+      <path id="Path-9" data-name="Path" d="M4,0H31a4,4,0,0,1,4,4V29a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(0 19)" fill="url(#linear-gradient-7)"/>
+      <path id="Rectangle" d="M6.61,7.606a1.02,1.02,0,0,1-.191-.018L.814,6.519a1,1,0,0,1-.52-1.689L4.829.293a1,1,0,0,1,1.689.52L7.588,6.419A1,1,0,0,1,6.61,7.606Zm-1.7-4.562L3.044,4.909l2.3.439Z" transform="translate(11.544 35.5) rotate(-45)" fill="#fff"/>
+      <path id="Oval-3" data-name="Oval" d="M10.5,21A10.5,10.5,0,0,1,3.075,3.075,10.5,10.5,0,1,1,10.5,21Zm0-19A8.5,8.5,0,1,0,19,10.5,8.51,8.51,0,0,0,10.5,2Z" transform="translate(7 25)" fill="#93a3b8"/>
+    </g>
+  </g>
+</svg>

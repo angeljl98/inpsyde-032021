@@ -1,0 +1,429 @@
+.dik-content {
+    position: relative;
+}
+
+.dik-content a {
+    text-decoration: none;
+}
+
+.dik-header-wrapper {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+}
+
+.dik-header-wrapper .dik-header-filter,
+.dik-header-wrapper .dik-header-filter ul,
+.dik-header-wrapper .dik-header-filter ul li,
+.dik-header-wrapper .dik-header-filter ul li button {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.dik-header-wrapper .dik-header-filter ul,
+.dik-header-wrapper .dik-header-filter ul li {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.dik-header-wrapper .dik-header-filter ul li button {
+    background: transparent;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+
+.dik-header-wrapper .dik-header-filter ul li button.dik-primary-tab-active,
+.dik-header-wrapper .dik-header-filter ul li:hover button,
+.dik-header-wrapper .dik-header-filter ul li:focus button {
+    background-image: -moz-linear-gradient(0deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    color: #fff;
+}
+
+
+.dik-header-wrapper .dik-header-controls {
+    display: flex;
+    margin-left: auto;
+    padding: 10px 20px;
+}
+
+.dik-content-wrapper {
+    background: #fbfbfb;
+}
+
+.dik-content .dik-sidebar-nav {
+    display: block;
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 225px;
+}
+
+.dik-sidebar-nav ul {
+    clear: left;
+    margin: 0;
+    list-style-type: none;
+}
+
+.dik-sidebar-nav ul li {
+    margin-bottom: 0;
+}
+
+.dik-sidebar-nav ul li a {
+    font-size: 13px;
+    position: relative;
+    display: block;
+    font-weight: 600;
+    padding: 15px;
+    color: #333;
+    border-bottom: 1px solid rgba(136, 134, 134, 0.12);
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.dik-sidebar-nav ul li a:hover,
+.dik-sidebar-nav ul li a:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.dik-sidebar-nav ul li a:hover,
+.dik-sidebar-nav ul li a:focus {
+    color: #fff;
+    background: #3473e4;
+}
+
+.dik-sidebar-nav ul li a.dik-tab-active {
+    color: #fff;
+    background: #3062ff;
+}
+
+.dik-sidebar-nav ul li a.dik-tab-active:after {
+    content: "";
+    position: absolute;
+    right: -1px;
+    top: 50%;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border: solid transparent;
+    border-right-color: #fff;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+.dik-content .dik-main-content {
+    background-color: #fafafa;
+    position: relative;
+    margin-left: 225px;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    min-height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dik-main-content .dik-content-wrap {
+    display: none;
+}
+
+.dik-main-content .dik-content-wrap.dik-main-content-active {
+    display: block;
+}
+
+.dik-main-content .dik-meta-title {
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: 300;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 32px;
+}
+
+/** Dummy Style **/
+.dik-rows {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.dik-columns {
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+@media (max-width: 1199px) {
+    .dik-columns {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .dik-columns {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.dik-columns-content {
+    padding: 20px 10px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.dik-columns-content:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.dik-browser-bar {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, .1);
+}
+
+.dik-browser-head {
+    background: #f3f3f3;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.dik-browser-head .dik-browser-control {
+    height: 8px;
+    width: 8px;
+    background: #e2e2e2;
+    display: inline-block;
+    margin-right: 1px;
+    border-radius: 50%;
+}
+
+.dik-browser-head span.red {
+    background: #f44336;
+}
+
+.dik-browser-head span.yellow {
+    background: #ffc107;
+}
+
+.dik-browser-head span.green {
+    background: #4caf50;
+}
+
+
+.dik-browser-head span.sticker {
+    width: 60px;
+    height: 40px;
+    background-image: -moz-linear-gradient(0deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(153, 41, 234) 0%, rgb(88, 8, 251) 100%);
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    z-index: 1;
+}
+
+.dik-browser-head span.sticker:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: -25px;
+    border-left: 30px solid #9026ed;
+    border-right: 30px solid #5e0df9;
+    border-bottom: 25px solid transparent;
+}
+
+
+.dik-demo-preview {
+    position: relative;
+}
+
+.dik-browser-bar:hover .dik-demo-preview,
+.dik-browser-bar:focus .dik-demo-preview {
+    background: #fff;
+}
+
+.dik-browser-bar:hover .dik-demo-preview img,
+.dik-browser-bar:focus .dik-demo-preview img {
+    filter: alpha(opacity=35);
+    opacity: .35;
+}
+
+
+.dik-more-details {
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    left: 20%;
+    background: #23282d;
+    background: rgba(0, 0, 0, .7);
+    font-size: 15px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .6);
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    padding: 15px 12px;
+    text-align: center;
+    border-radius: 3px;
+    transition: opacity .1s ease-in-out;
+}
+
+.dik-more-details a {
+    color: #fff;
+}
+
+.dik-browser-bar:hover .dik-more-details,
+.dik-browser-bar:focus .dik-more-details {
+    opacity: 1;
+}
+
+.dik-browser-footer {
+    position: relative;
+}
+
+.dik-browser-footer .dik-demo-title {
+    font-size: 15px;
+    font-weight: 600;
+    height: 18px;
+    margin: 0;
+    padding: 15px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #fff;
+    background: rgba(255, 255, 255, .65);
+}
+
+.dik-browser-footer .dik-demo-actions {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 9px 15px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, .1);
+
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+    height: auto;
+    background: rgba(244, 244, 244, .7);
+    border-left: 1px solid rgba(0, 0, 0, .05);
+}
+
+.dik-browser-bar:hover .dik-browser-footer .dik-demo-actions,
+.dik-browser-bar:focus .dik-browser-footer .dik-demo-actions {
+    opacity: 1;
+}
+
+.dik-thumbnail img {
+    max-width: 100%;
+}
+
+a#dik-extract-file:hover {
+    background: #fff;
+    color: #3062ff;
+}
+
+#dik-extract-file {
+    background: #3062ff;
+    padding: 10px;
+    border: solid 1px #3062ff;
+    display: inline-block;
+    color: #fff;
+    margin: 30px 0;
+}
+
+
+/** Rough **/
+
+#dik-search-input,
+#twp-zip-file-upload,
+.dik-header-download input[type="submit"] {
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dik-header-upload {
+    margin-top: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.media-frame .uploader-inline {
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.twp-upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.twp-content-upload-default {
+    font-size: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.dik-default-header {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.dik-default-header .dik-default-subheading {
+    max-width: 910px;
+    margin: 10px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+    filter: alpha(opacity=75);
+    opacity: .75;
+}
+
+.dik-default-main {
+    background: #fff;
+    padding: 10px;
+}
+
+.dik-header-download {
+    display: inline-block;
+    vertical-align: middle;
+}

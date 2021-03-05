@@ -1,0 +1,14 @@
+{
+    "name": "dell/inpsyde",
+    "description": "inpsyde page in Wordpress",
+    "type": "project",
+    "license": "Inpsyde",
+    "authors": [
+        {
+            "name": "angeljl98",
+            "email": "angeljl98@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}

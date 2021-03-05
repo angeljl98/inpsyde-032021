@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14"
+     viewBox="0 0 20 14">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="video_round_961_" data-name="video_round [#961]"
+                  d="M12,14H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H12a2,2,0,0,1,2,2V6.111l4.461-2.847A1,1,0,0,1,20,4.107v6.351a1,1,0,0,1-1.538.843L14,8.454V12A2,2,0,0,1,12,14ZM3,2A1,1,0,0,0,2,3v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1ZM18,5.891,15.774,7.283,18,8.673Z"
+                  transform="translate(0 3)" fill="rgba(255,255,255,0)"/>
+        </clipPath>
+    </defs>
+    <g id="Icon_20px_video_round_961_" data-name="Icon/20px/video_round [#961]" transform="translate(0 -3)">
+        <path id="video_round_961_2" data-name="video_round [#961]"
+              d="M12,14H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H12a2,2,0,0,1,2,2V6.111l4.461-2.847A1,1,0,0,1,20,4.107v6.351a1,1,0,0,1-1.538.843L14,8.454V12A2,2,0,0,1,12,14ZM3,2A1,1,0,0,0,2,3v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1ZM18,5.891,15.774,7.283,18,8.673Z"
+              transform="translate(0 3)" fill="rgba(255,255,255,0)"/>
+        <g clip-path="url(#clip-path)">
+            <g id="_Atoms_Colour_White" data-name="⚙️Atoms/Colour/White" transform="translate(-1 -1)">
+                <rect id="_Atoms_Colour_White_background" data-name="⚙️Atoms/Colour/White background" width="22"
+                      height="22" fill="rgba(0,0,0,0)"/>
+                <rect id="Colour" width="22" height="22" fill="#9ea0a5"/>
+            </g>
+        </g>
+    </g>
+</svg>

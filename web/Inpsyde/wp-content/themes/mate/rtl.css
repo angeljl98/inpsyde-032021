@@ -1,0 +1,108 @@
+/*
+Theme Name: Mate
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+https://codex.wordpress.org/Right-to-Left_Language_Support
+*/
+.wp-custom-header .wp-custom-header-video-button {
+    left: 40px;
+    right: inherit;
+}
+.navbar-day-night.navbar-night-on .sun-icon {
+    -webkit-transform: translateX(-25px);
+    -ms-transform: translateX(-25px);
+    transform: translateX(-25px);
+}
+.site-navigation .primary-menu ul{
+    left: inherit;
+    right: -99999rem;
+}
+.site-navigation .primary-menu li.menu-item-has-children:hover > ul,
+.site-navigation .primary-menu li.menu-item-has-children:focus > ul,
+.site-navigation .primary-menu li.page_item_has_children:hover > ul,
+.site-navigation .primary-menu li.page_item_has_children:focus > ul {
+    right: 0;
+    left: inherit;
+}
+.site-navigation .primary-menu li.menu-item-has-children:focus-within > ul,
+.site-navigation .primary-menu li.page_item_has_children:focus-within > ul {
+    right: 0;
+    left: inherit;
+}
+.header-searchbar #search-closer {
+    right: inherit;
+    left: 10px;
+}
+.search-form label,
+.search-form .search-submit {
+    float: right;
+}
+.search-content-area .recent-list-group:before,
+.search-content-area .recent-list-group .theme-list-article:before {
+    right: 0;
+    left: inherit;
+}
+.search-content-area .recent-list-group .theme-list-article:before {
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -o-transform: translateX(50%);
+    transform: translateX(50%);
+}
+.search-content-area .recent-list-group .theme-list-article {
+    padding-left: 0;
+    padding-right: 30px;
+}
+.widget_recent_entries ul li a,
+.widget_categories ul li a,
+.widget_pages ul li a,
+.widget_archive ul li a,
+.widget_meta ul li a {
+    margin-right: 0;
+}
+.floating-navigation-prev {
+    left: calc(100% - 50px);
+    right: inherit;
+}
+.floating-navigation-prev:hover {
+    left: calc(100% - 339px);
+    right: inherit;
+}
+.floating-navigation-next {
+    right: calc(100% - 50px);
+    left: inherit;
+}
+.floating-navigation-next:hover {
+    right: calc(100% - 339px);
+    left: inherit;
+}
+.floating-navigation-prev img {
+    left: 50px;
+    right: inherit;
+}
+.floating-navigation-next img {
+    right: 50px;
+    left: inherit;
+}
+.floating-navigation-next .floating-navigation-label {
+    right: 0;
+    left: auto;
+}
+.floating-navigation-prev .floating-navigation-label {
+    right: auto;
+    left: 0;
+}
+.floating-post-navigation .floating-navigation-title {
+    left: 50%;
+    right: inherit;
+    transform: translate(-50%, -50%);
+    padding: 20px 60px 20px 20px;
+}
+.floating-navigation-prev .floating-navigation-title {
+    padding: 20px 20px 20px 60px;
+}
+.post-navigation .nav-links .arrow{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

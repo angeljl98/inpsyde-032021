@@ -1,0 +1,1684 @@
+* {
+    outline: 0 !important;
+}
+
+.toplevel_page_ssl_zen #wpwrap {
+    background: #FBFBFD;;
+}
+
+.ssl-zen-content-container {
+    margin-left: -20px;
+    /* background-color: #FBFBFD; */
+    font-family: 'Roboto', 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    color: #000;
+}
+
+.review-page {
+    background: url("../img/review-bg.svg") no-repeat right 100%;
+}
+
+.review-page .ssl-zen-steps-container {
+    background: transparent;
+}
+
+.ssl-zen-content-container .primary,
+.ssl-zen-copy-certs-container .primary {
+    padding: 8px 16px;
+    background-color: #1890FF;
+    border-radius: 4px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF !important;
+    letter-spacing: 2px;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.ssl-zen-content-container .primary:hover,
+.ssl-zen-copy-certs-container .primary:hover {
+    text-decoration: none;
+}
+
+.ssl-zen-content-container .primary.disabled {
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    color: #BFBFBF !important;
+}
+
+.ssl-zen-content-container a.download-status {
+    padding: 8px 16px 8px 35px;
+    background-image: url("../img/status-white.svg");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.ssl-zen-content-container a.download-debug {
+    padding: 8px 16px 8px 35px;
+    background-image: url("../img/debug-white.svg");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.ssl-zen-content-container a.error {
+    background-color: #F5F5F5 !important;
+    border: 1px solid #D9D9D9 !important;
+    color: #F5222D !important;
+    font-weight: 600;
+}
+
+.ssl-zen-content-container a.next {
+    width: 138px;
+    height: 40px;
+    display: inline-block;
+    line-height: unset;
+}
+
+.ssl-zen-content-container span.error.mini-message {
+    color: #FF4D4F !important;
+}
+
+.ssl-zen-content-container span.mini-message {
+    font-size: 16px;
+    color: #8C8C8C;
+}
+
+.ssl-zen-content-container div.message,
+.ssl-zen-copy-certs-container div.message {
+    padding: 9px 16px 9px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    color: #595959;
+    max-width: 740px;
+    margin: 0;
+}
+
+.ssl-zen-content-container div.message.warning.yellow,
+.ssl-zen-copy-certs-container div.message.warning.yellow {
+    background-color: #FFFBE6;
+    border: 1px solid #FFE58F;
+}
+
+.ssl-zen-content-container div.message.warning,
+.ssl-zen-copy-certs-container div.message.warning {
+    background-image: url(../img/warning.svg);
+    background-repeat: no-repeat;
+    background-position: 17px center;
+    background-color: #FFFFFF;
+}
+
+.ssl-zen-content-container div.message.info,
+.ssl-zen-copy-certs-container div.message.info {
+    background: #FFFFFF url(../img/info-circle.svg) no-repeat 10px center;
+}
+
+.ssl-zen-content-container div.message.success,
+.ssl-zen-copy-certs-container div.message.success {
+    background: #FFFFFF url(../img/success.svg) no-repeat 10px center;
+}
+
+.ssl-zen-content-container div.message.error,
+.ssl-zen-copy-certs-container div.message.error {
+    background: #FFF1F0 url(../img/x-circle.svg) no-repeat 10px center;
+    border: 1px solid #FFA39E;
+}
+
+.ssl-zen-content-container i.check {
+    padding: 10px;
+    background: url("../img/success-md.svg") no-repeat center center;
+}
+
+.ssl-zen-content-container i.check.error {
+    background: url("../img/x-circle.svg") no-repeat center center;
+}
+
+.ssl-zen-content-container table tr.grey {
+    background: #FAFAFA;
+}
+
+.ssl-zen-content-container table th {
+    font-size: 16px;
+    color: #262626;
+    border: 1px solid #E8E8E8;
+}
+
+.ssl-zen-content-container table td {
+    font-size: 16px;
+    vertical-align: middle;
+    color: #595959;
+    border: 1px solid #E8E8E8;
+}
+
+.ssl-zen-content-container table td div.pricing-notice {
+    flex-direction: column;
+    padding-top: 18px;
+    line-height: normal;
+}
+
+.ssl-zen-content-container table td div.pricing-notice > span {
+    font-size: 12px;
+    color: #595959;
+}
+
+.ssl-zen-content-container i.copy,
+.ssl-zen-content-container i.copy-clipboard {
+    padding: 10px;
+    background: url(../img/copy.svg) no-repeat center center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Header */
+.header {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 13px 30px;
+}
+
+.ssl-loading-wrap,
+body > .ssl-zen-copy-certs-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999999;
+}
+
+.ssl-loading-wrap > div {
+    width: 100px;
+    height: 100px;
+    background: url('../img/loading.svg') no-repeat center;
+    -moz-animation: spin 1.3s infinite linear;
+    -webkit-animation: spin 1.3s infinite linear;
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.logo {
+}
+
+.logo img {
+}
+
+.logo > span:nth-child(2) {
+    color: #999999;
+    margin: 4px 0 0 8px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.logo > span:nth-child(3) {
+    margin: 4px 0 0 6px;
+    background: #F9F0FF;
+    opacity: 0.85;
+    border: 1px solid #D3ADF7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 3px 8px;
+    color: #722ED1;
+}
+
+.external-actions-container {
+}
+
+.external-actions-container > a {
+    background: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 4px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #595959;
+    padding: 5px 16px 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 11px center;
+    transition: all .2s;
+}
+
+.external-actions-container > a:hover {
+    color: #40A9FF;
+    border: 1px solid #40A9FF;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
+}
+
+.external-actions-container > a.settings {
+    margin-right: 10px;
+    background-image: url("../img/settings.svg");
+}
+
+.external-actions-container > a.settings:hover {
+    background-image: url("../img/settings-hover.svg");
+}
+
+.external-actions-container > a.upgrade {
+    margin-right: 10px;
+    background-image: url("../img/upgrade-star.svg");
+}
+
+.external-actions-container > a.upgrade:hover {
+    background-image: url("../img/upgrade-star-hover.svg");
+}
+
+.external-actions-container > a.support {
+    background-image: url("../img/support-headphone.svg");
+}
+
+.external-actions-container > a.support:hover {
+    background-image: url("../img/support-headphone-hover.svg");
+}
+
+/* Footer */
+footer a {
+    display: block;
+    background: #F4F4FF;
+    color: #4D4A8C;
+    border: 1px solid #CCCCEB;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #4D4A8C;
+}
+
+footer a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ssl-zen-pro-quote {
+    padding-left: 40px;
+}
+
+.ssl-zen-pro-quote > h4 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.ssl-zen-pro-quote > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.ssl-zen-pro-features > span,
+.ssl-zen-pro-features > span,
+.ssl-zen-pro-features > span {
+    color: #4D4A8C;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    padding-left: 35px;
+    display: block;
+    float: left;
+    max-width: 185px;
+}
+
+.ssl-zen-pro-features > span:nth-child(1) {
+    background-image: url("../img/auto-domain-verification.svg");
+    margin-right: 46px;
+}
+
+.ssl-zen-pro-features > span:nth-child(2) {
+    background-image: url("../img/auto-ssl-installation.svg");
+}
+
+.ssl-zen-pro-features > span:nth-child(3) {
+    background-image: url("../img/auto-ssl-renewal.svg");
+    max-width: 142px;
+}
+
+.ssl-zen-pro-upgrade > button {
+    background: #5C4B82;
+    width: 161px;
+    max-width: 100%;
+    padding: 10px 0;
+    border: 1px solid #5C4B82;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* Step 1 */
+.ssl-zen-steps-container p.starting-quote,
+.ssl-zen-steps-container p.verification-question {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ssl-zen-steps-container .media-body p {
+    font-size: 18px;
+    color: #595959;
+    margin: 0;
+    line-height: 32px;
+}
+
+/* Step 2 */
+.ssl-zen-domain-verification-variant-container {
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ssl-zen-domain-verification-variant-container:hover,
+.ssl-zen-domain-verification-variant-container.selected {
+    border: 2px solid #1890FF;
+}
+
+.ssl-zen-domain-verification-variant-container .http,
+.ssl-zen-domain-verification-variant-container .dns {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0 0 0 40px;
+    color: #333333;
+}
+
+.ssl-zen-domain-verification-variant-container .http {
+    background-image: url("../img/http-variant.svg");
+}
+
+.ssl-zen-domain-verification-variant-container .dns {
+    background-image: url("../img/dns-variant.svg");
+}
+
+.ssl-zen-domain-verification-variant-container .minute {
+    font-size: 14px;
+    color: #8C8C8C;
+    padding: 2px 0 2px 30px;
+    background: url("../img/minute.svg") no-repeat left center;
+}
+
+.ssl-zen-domain-verification-variant-container h5 {
+    font-size: 18px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.ssl-zen-domain-verification-variant-container p {
+    font-size: 18px;
+    color: #595959;
+}
+
+.ssl-zen-domain-verification-variant-tabs > li {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: 9px center;
+    background-size: 16px 16px;
+    box-shadow: inset 0 1px 0 #D6D6D6, inset 1px 0 0 #D9D9D9, inset -1px 0 0 #D9D9D9;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 10px 10px 34px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 3px 0 0;
+    cursor: pointer;
+}
+
+.ssl-zen-domain-verification-variant-tabs > li.http {
+    background-image: url("../img/http-variant.svg");
+}
+
+.ssl-zen-domain-verification-variant-tabs > li.dns {
+    background-image: url("../img/dns-variant.svg");
+}
+
+.ssl-zen-domain-verification-variant-tabs > li.active.http {
+    background-image: url("../img/http-variant-selected.svg");
+    color: #1890FF;
+}
+
+.ssl-zen-domain-verification-variant-tabs > li.error.http {
+    background-image: url("../img/http-variant-error.svg") !important;
+}
+
+.ssl-zen-domain-verification-variant-tabs > li.error.dns {
+    background-image: url("../img/dns-variant-error.svg") !important;
+}
+
+.ssl-zen-domain-verification-variant-tabs > li.error {
+    color: #FA541C !important;
+}
+
+.ssl-zen-domain-verification-variant-tabs > li.active.dns {
+    background-image: url("../img/dns-variant-selected.svg");
+    color: #1890FF;
+}
+
+.ssl-zen-domain-verification-variant-tab-container-left {
+    padding: 32px 0 0 32px
+}
+
+.ssl-zen-domain-verification-variant-tab-container h5 {
+    font-size: 18px;
+    color: #8C8C8C;
+    font-weight: normal;
+}
+
+.ssl-zen-domain-verification-variant-tab-container p,
+.ssl-zen-install-certificate-container p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 32px;
+}
+
+.ssl-zen-domain-verification-variant-tab-container span,
+.ssl-zen-install-certificate-container span {
+    color: #595959;
+}
+
+.ssl-zen-domain-verification-variant-tab-container span.important,
+.ssl-zen-domain-verification-variant-tab-container span.important,
+.ssl-zen-install-certificate-container span.important,
+.ssl-zen-activate-ssl-container span.important {
+    font-weight: bold;
+}
+
+.ssl-zen-domain-verification-variant-tab-container span.red-rect,
+.ssl-zen-domain-verification-variant-tab-container span.red-rect,
+.ssl-zen-activate-ssl-container span.red-rect {
+    padding-left: 25px;
+    background: url("../img/imp-red.svg") no-repeat left center;
+    color: #262626;
+    background-size: 18px;
+}
+
+.ssl-zen-domain-verification-variant-tab-container span.folder {
+    padding-left: 25px;
+    background: url("../img/folder.svg") no-repeat left center;
+    color: #262626;
+}
+
+.ssl-zen-domain-verification-variant-tab-container a.tutorial,
+.ssl-zen-install-certificate-container a.tutorial {
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 30px;
+    background: url("../img/video-tutorial.svg") no-repeat left center;
+    color: #40A9FF;
+    cursor: pointer;
+}
+
+.ssl-zen-domain-verification-variant-tab-container a.download-file {
+    padding: 8px 30px 8px 16px;
+    background: #FFFFFF url(../img/download-file.svg) no-repeat 90% center;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
+    color: #595959 !important;
+    text-transform: none;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.description {
+    background: #F1F1F1;
+    border: 1px solid #EAEDF3;
+    height: 100%;
+}
+
+.ssl-zen-domain-verification-variant-tab-container ul {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+.ssl-zen-domain-verification-variant-tab-container ul > li {
+    font-weight: normal;
+    font-size: 16px;
+    color: #595959;
+    margin-bottom: 13px;
+}
+
+.ssl-zen-domain-verification-variant-tab-container h4,
+.ssl-zen-install-certificate-container h4,
+.ssl-zen-activate-ssl-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #262626;
+    margin-bottom: 1rem;
+}
+
+.ssl-zen-domain-verification-variant-tab-container a.scan-dns {
+    padding: 10px 40px 10px 20px;
+    background: #1890FF url(../img/dns-variant-selected-reverse.svg) no-repeat 90% center;
+    text-transform: none;
+}
+
+.ssl-zen-domain-verification-variant-tab-container a.scan-http {
+    text-transform: none;
+}
+
+.ssl-zen-domain-verification-variant-tab-container span.time-wait {
+    font-weight: normal;
+    font-size: 12px;
+    color: #999999;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.record-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.record-table > div {
+    padding: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E8E8E8;
+    word-break: break-all;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.record-table > div:nth-child(1),
+.ssl-zen-domain-verification-variant-tab-container div.record-table > div:nth-child(3),
+.ssl-zen-domain-verification-variant-tab-container div.record-table > div:nth-child(5) {
+    width: 32%;
+    border-right: none;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.record-table > div:nth-child(2),
+.ssl-zen-domain-verification-variant-tab-container div.record-table > div:nth-child(4),
+.ssl-zen-domain-verification-variant-tab-container div.record-table > div:nth-child(6) {
+    width: 68%;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.head {
+    background: #FAFAFA;
+    font-weight: 600;
+    font-size: 16px;
+    color: #262626;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.record {
+    color: #595959;
+    font-weight: normal;
+    font-size: 16px;
+    border-top: none !important;
+    padding: 15px 20px 15px 15px !important;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.record > input {
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 0;
+    height: auto;
+}
+
+a.scan-dns-stackpath.primary.mr-3,
+a.update-dns-stackpath.primary.mr-3 {
+    height: 40px;
+    width: 196px !important;
+    padding: 8px 11px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    font-size: 18px;
+}
+
+a.update-dns-stackpath.primary.mr-3 {
+    width: 214px !important;
+}
+
+a.scan-dns-stackpath.primary.mr-3 img,
+a.update-dns-stackpath.primary.mr-3 img {
+    margin-left: 8px;
+}
+
+.ssl-zen-domain-verification-variant-tab-container div.message.warning, .ssl-zen-domain-verification-variant-tab-container div.message.success {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    background-position: 16px center;
+    line-height: 22px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+}
+
+/* Step 3 and Step 4*/
+
+.ssl-zen-install-certificate-container div.cpanel > div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    border-left: 1px solid #DDDDDD;
+    background: #F5F5F5;
+}
+
+.ssl-zen-install-certificate-container div.cpanel > div > div.head {
+    background: #F0F4FA url("../img/cpanel.svg") no-repeat 15px center;
+    background-size: auto 14px;
+    border-bottom: 1px solid #DDDDDD;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+}
+
+.ssl-zen-install-certificate-container div.cpanel > div > div:nth-child(2) {
+    background: #F5F5F5;
+    border-right: 1px solid #DDDDDD;
+    width: 15%;
+}
+
+.ssl-zen-install-certificate-container div.cpanel > div > div:nth-child(3) {
+    background: #FBFBFB;
+    width: 85%;
+    padding: 32px 30px 0 20px;
+}
+
+.ssl-zen-install-certificate-container div.cpanel div.body ul {
+
+}
+
+.ssl-zen-install-certificate-container div.cpanel div.body ul > li {
+    margin-bottom: 34px;
+}
+
+.ssl-zen-install-certificate-container div.cpanel div.body ul > li > h6 {
+    font-weight: bold;
+    font-size: 12px;
+    color: #333333;
+}
+
+.ssl-zen-install-certificate-container div.cpanel div.body ul > li > div {
+    background: #FFFFFF url(../img/crt-pem.svg) no-repeat 10px center;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #333333;
+    padding: 17px 15px 17px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.ssl-zen-install-certificate-container div.cpanel div.body ul > li > div > div.filename {
+    width: 145px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.ssl-zen-install-certificate-container div.cpanel div.body ul > li > div > div > a {
+    padding: 10px;
+    background: url(../img/download.svg) no-repeat center center;
+}
+
+.ssl-zen-install-certificate-container div.cpanel div.body ul > li > div > div > i {
+    margin-right: 15px;
+}
+
+.ssl-zen-install-certificate-container div.steps ul,
+.ssl-zen-activate-ssl-container div.steps ul {
+
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li,
+.ssl-zen-activate-ssl-container div.steps ul > li {
+    position: relative;
+    padding-left: 38px;
+    margin-bottom: 27px;
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li a,
+.ssl-zen-activate-ssl-container div.steps ul > li a {
+    color: #40A9FF;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li span.ssl-tls,
+.ssl-zen-activate-ssl-container div.steps ul > li span.ssl-tls {
+    background: url(../img/ssl-tls.svg) no-repeat 5px center;
+    padding-left: 35px;
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li:before,
+.ssl-zen-activate-ssl-container div.steps ul > li:before {
+    position: absolute;
+    padding: 5px;
+    left: 0;
+    top: 0;
+    background-color: #595959;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li:nth-child(1):before,
+.ssl-zen-activate-ssl-container div.steps ul > li:nth-child(1):before {
+    content: '1';
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li:nth-child(2):before,
+.ssl-zen-activate-ssl-container div.steps ul > li:nth-child(2):before {
+    content: '2';
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li:nth-child(3):before,
+.ssl-zen-activate-ssl-container div.steps ul > li:nth-child(3):before {
+    content: '3';
+}
+
+.ssl-zen-install-certificate-container div.steps ul > li:nth-child(4):before,
+.ssl-zen-activate-ssl-container div.steps ul > li:nth-child(4):before {
+    content: '4';
+}
+
+.ssl-zen-install-certificate-container div.steps ul.ssl-zen-non-cpanel-external-links {
+    margin-bottom: 0;
+}
+
+.ssl-zen-install-certificate-container div.steps ul.ssl-zen-non-cpanel-external-links > li {
+    padding-left: 0;
+}
+
+.ssl-zen-install-certificate-container div.steps ul.ssl-zen-non-cpanel-external-links > li:last-child {
+    margin-bottom: 0;
+}
+
+.ssl-zen-install-certificate-container div.steps ul.ssl-zen-non-cpanel-external-links > li:before {
+    display: none;
+}
+
+.ssl-zen-install-certificate-container div.steps ul.ssl-zen-non-cpanel-external-links > li > a {
+    color: #595959;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #595959;
+}
+
+.ssl-zen-activate-ssl-container {
+    padding: 32px 0 32px 24px;
+}
+
+#frmstep4 .ssl-zen-activate-ssl-container {
+    padding: 32px 32px 100px;
+}
+
+.ssl-zen-activate-ssl-container div.note > div.head,
+.ssl-zen-activate-ssl-container div.note > div.body {
+    width: 100%;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E8E8E8;
+    word-break: break-all;
+}
+
+.ssl-zen-activate-ssl-container div.note > div.head {
+    border-bottom: none;
+}
+
+.ssl-zen-activate-ssl-container ul > li > span, .ssl-zen-activate-ssl-container div.note .body span {
+    color: #595959;
+}
+
+.ssl-zen-activate-ssl-container div.note span {
+    font-size: 16px;
+}
+
+.ssl-zen-activate-ssl-container h5 {
+    font-size: 16px;
+    color: #595959;
+    font-weight: 600;
+}
+
+.ssl-zen-activate-ssl-container h6, .ssl-zen-activate-ssl-container p {
+    font-size: 16px;
+    color: #595959;
+    font-weight: 400;
+}
+
+.ssl-zen-steps-container .message-container-2.cstep3 {
+    font-size: 12px;
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.ssl-zen-steps-container .message-container-2.cstep3 .message {
+    margin-bottom: 10px;
+}
+
+.ssl-zen-review-container {
+    margin-top: 110px;
+    padding-bottom: 150px;
+}
+
+.ssl-zen-review-container div.description {
+
+}
+
+.ssl-zen-review-container div.ssl {
+    width: 80%;
+    height: 78px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.ssl-zen-review-container div.ssl > div.lock {
+    width: 50px;
+    height: 50px;
+    border-radius: 500%;
+    background: #b3b3b3 url(../img/lock-white.svg) no-repeat center center;
+    margin-left: 17px;
+}
+
+.ssl-zen-review-container div.ssl > div.line {
+    width: 65%;
+    background: #eeeeee;
+    height: 15px;
+    margin-left: 40px;
+}
+
+.ssl-zen-review-container h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #389E0D;
+    margin-bottom: 35px;
+}
+
+.ssl-zen-review-container p.saved-quote {
+    font-weight: 600;
+    font-size: 38px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.ssl-zen-review-container div.propose {
+    font-weight: 600;
+    font-size: 20px;
+    color: #595959;
+}
+
+.ssl-zen-review-container a.review {
+    width: 235px;
+    display: block;
+}
+
+.ssl-zen-review-container span.review-timing {
+    width: 235px;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+i.star {
+    background: url("../img/star.svg") no-repeat center center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+div.ssl-arrow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    left: -44px;
+    background: url(../img/ssl-arrow.svg) no-repeat center center;
+}
+
+.ssl-zen-review-container div.remind {
+    height: 78px;
+}
+
+.ssl-zen-review-container div.remind > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #8C8C8C;
+    cursor: pointer;
+}
+
+/* Settings */
+.ssl-zen-settings-tab-container {
+    border-bottom: 2px solid #D9D9D9;
+}
+
+.ssl-zen-settings-tab-container > li {
+    padding: 10px 17px 10px 40px;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #595959;
+    cursor: pointer;
+}
+
+.ssl-zen-settings-tab-container > li.active {
+    box-shadow: 0 2px 0 #1890FF;
+    font-weight: 600;
+    color: #1890FF;
+}
+
+.ssl-zen-settings-tab-container > li.advanced {
+    background-image: url("../img/advanced.svg");
+}
+
+.ssl-zen-settings-tab-container > li.status {
+    background-image: url("../img/status.svg");
+}
+
+.ssl-zen-settings-tab-container > li.debug {
+    background-image: url("../img/debug.svg");
+}
+
+.ssl-zen-settings-tab-container > li.advanced.active {
+    background-image: url("../img/advanced-active.svg");
+}
+
+.ssl-zen-settings-tab-container > li.status.active {
+    background-image: url("../img/status-active.svg");
+}
+
+.ssl-zen-settings-tab-container > li.debug.active {
+    background-image: url("../img/debug-active.svg");
+}
+
+.ssl-zen-settings-container div.table {
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    height: 100%;
+}
+
+.ssl-zen-settings-container div.head {
+    border-bottom: 1px solid #D9D9D9;
+    font-weight: 600;
+    font-size: 16px;
+    color: #262626;
+    padding: 14px 25px;
+}
+
+.ssl-zen-settings-container div.body {
+    padding: 14px 25px;
+}
+
+.ssl-zen-settings-container div.body span,
+.ssl-zen-settings-container div.body label {
+    font-size: 14px;
+    color: #595959;
+    font-weight: normal;
+}
+
+.ssl-zen-settings-container div.body span.mini-message.d-block {
+    font-size: 11px;
+    color: #8C8C8C;
+    margin: 5px 0 8px;
+    line-height: 20px;
+}
+
+.ssl-zen-settings-container div.body.right span {
+    color: #8c8c8c;
+}
+
+.ssl-zen-settings-container div.body.right span.block.sslzen-info img {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+a.d-inline-block.primary.stackpath-purge.sslzen-form-button {
+    padding: 10px 44px;
+}
+
+.ssl-zen-settings-container div.body span.title,
+.ssl-zen-settings-container div.body label.title {
+    font-weight: 600;
+}
+
+.ssl-zen-settings-container div.body .alert-danger {
+    color: #595959;
+    background-color: #FFF1F0;
+    border-color: #f5c6cb;
+    padding: .35rem 1rem;
+    display: inline-block;
+}
+
+.ssl-zen-settings-container div.body .alert.alert-danger img {
+    margin-right: 5px;
+}
+
+.ssl-zen-settings-container div.body span.grey-tri {
+    padding: 13px;
+    background: url(../img/imp-triangle.svg) no-repeat left center;
+}
+
+.ssl-zen-settings-container div.days-left-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.ssl-zen-settings-container div.days-num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.ssl-zen-settings-container div.days-num > span:nth-child(1) {
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    line-height: 27px;
+}
+
+.ssl-zen-settings-container div.days-left {
+    width: 100px;
+    height: 100px;
+}
+
+.ssl-zen-settings-container div.days-left > svg {
+    transform: rotate(-90deg) !important;
+}
+
+.ssl-zen-settings-container li.line > div:nth-child(1) {
+    width: 9%;
+}
+
+.ssl-zen-settings-container li.line > div:nth-child(2) {
+    width: 91%;
+}
+
+.ssl-zen-settings-container.debug-container {
+    background-color: #FBFBFD;
+}
+
+.ssl-zen-settings-container.debug-container textarea {
+    min-height: 300px;
+    font-size: 14px;
+}
+
+.ssl-zen-settings-container.debug-container label {
+    font-size: 15px;
+    color: #595959;
+    font-weight: 600;
+}
+
+.ssl-zen-settings-container.debug-container span {
+    font-size: 15px;
+    color: #595959;
+    font-weight: normal;
+}
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+    border-radius: 20rem;
+}
+
+.toggle.ios .toggle-handle {
+    border-radius: 20rem;
+    width: 2.3rem;
+    height: 1.3rem;
+}
+
+.toggle-handle.btn-light:hover {
+    background-color: #ffffff;
+}
+
+.btn-light.toggle-off {
+    background-color: #e5e6e6;
+}
+
+/* Error State */
+.ssl-zen-error-state-container .banner {
+    min-height: 400px;
+    background: url("../img/error_state.svg") no-repeat center top;
+}
+
+.ssl-zen-error-state-container h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF4D4F;
+}
+
+.ssl-zen-error-state-container p {
+    color: #595959;
+}
+
+/* System Requirements */
+#frmsysreq .ssl-zen-steps-container {
+    background: #FBFBFD;
+}
+
+.ssl-zen-content-container .ssl-zen-system-requirement-container span.mini-message {
+    color: #595959;
+}
+
+.ssl-zen-system-requirement-container table tr {
+    background: #fff;
+}
+
+.ssl-zen-system-requirement-header {
+    border-bottom: 1px solid #D9D9D9;
+    font-weight: 600;
+    font-size: 20px;
+    color: #262626;
+}
+
+/* Pricing */
+.ssl-zen-pricing-header-banner {
+    background: #FDEDEE;
+    padding: 48px 24px;
+}
+
+.ssl-zen-pricing-header-banner > div:nth-child(2) {
+    background: url("../img/pricing-banner.svg") no-repeat center top;
+    background-size: contain;
+    height: 198px;
+    width: 336px;
+}
+
+.ssl-zen-pricing-header-banner h1 {
+    font-size: 40px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.ssl-zen-pricing-header-banner p {
+    font-size: 24px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.ssl-zen-pricing-container table {
+    border: none;
+    border-radius: 9px;
+}
+
+.ssl-zen-pricing-container table td {
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.ssl-zen-pricing-container table tr > td:nth-child(1) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ssl-zen-pricing-container table td.empty {
+    border: none
+}
+
+.ssl-zen-pricing-container table td.amount {
+    border: none;
+    padding: 0;
+}
+
+.ssl-zen-pricing-container table td.amount > div {
+    padding: 35px 0;
+    border: 1px solid #dee2e6;
+    height: 100%;
+    border-bottom: none;
+    min-height: 194px;
+    width: calc(100% + 1px);
+}
+
+.ssl-zen-pricing-container table td.amount.premium > div {
+    border-top-left-radius: 9px;
+}
+
+.ssl-zen-pricing-container table td.amount.free > div {
+    border-top-right-radius: 9px;
+}
+
+.ssl-zen-pricing-container table td.amount h3 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+}
+
+.ssl-zen-pricing-container table td.amount span:nth-child(2) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.ssl-zen-pricing-container table td.amount span:nth-child(3) {
+    font-weight: 600;
+    font-size: 20px;
+    color: grey;
+}
+
+.ssl-zen-pricing-container table td.price {
+    padding: 30px 0;
+}
+
+.ssl-zen-pricing-container table td.price > a {
+    text-transform: uppercase;
+    padding: 8px 0;
+    width: 210px;
+    display: inline-block;
+}
+
+.ssl-zen-pricing-container table td.price.premium > a {
+    background: #5C4B82;
+}
+
+.ssl-zen-pricing-container table td.price.free > a {
+    background: #595959;
+}
+
+/* Copy certs */
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container {
+    width: 560px;
+    height: 400px;
+    max-width: 100%;
+    background: #ffffff;
+    overflow-y: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .head {
+    padding: 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .head span.title {
+    background: url(../img/crt-pem.svg) no-repeat left center;
+    padding-left: 40px;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .head span.copy.primary {
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .head div.message {
+    font-size: 12px;
+    padding: 5px 35px;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .head span.close {
+    background: #b7b7b7 url(../img/x-black.svg) no-repeat center center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .body {
+    font-size: 12px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    background: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .body > textarea {
+    border: none;
+    overflow-y: scroll;
+    width: 100%;
+    max-width: 100%;
+    height: 276px !important;
+    background: transparent;
+    margin: 0;
+    outline: none !important;
+}
+
+body > .ssl-zen-copy-certs-wrapper > .ssl-zen-copy-certs-container > .body > textarea:focus {
+    box-shadow: none;
+}
+
+.progress-list {
+    margin: 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+.progress-list li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.progress-list li > span {
+    font-size: 16px;
+    color: #8C8C8C;
+    cursor: default;
+}
+
+.progress-list li > span:nth-child(3) {
+    display: inline-block;
+    width: 90px;
+    height: 1px;
+    background: #E8E8E8;
+}
+
+.progress-list li a {
+    text-decoration: none !important;
+    color: #BFBFBF;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #BFBFBF;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 23px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.progress-list li a.passed {
+    border: 1px solid #1890FF;
+    background: url("../img/checkbox-blue.svg") no-repeat center center;
+}
+
+.progress-list li.active a,
+.progress-list li.completed a {
+    background: #1890FF;
+    border: 1px solid #1890FF;
+    color: #fff;
+}
+
+.progress-list li.active > span {
+    font-weight: 600;
+    color: #262626;
+    font-size: 14px;
+}
+
+label.error {
+    display: block;
+    color: #F5222D;
+    margin-top: 5px !important;
+    font-size: 12px !important;
+}
+
+.ssl-zen-steps-container {
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 32px;
+    position: relative;
+    background: #fff;
+}
+
+.ssl-zen-steps-container.custom-round {
+    border-top-left-radius: 0;
+}
+
+.ssl-zen-steps-container label {
+    font-weight: normal;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: #262626;
+}
+
+.ssl-zen-steps-container input[type="text"],
+.ssl-zen-steps-container input[type="email"],
+.ssl-zen-steps-container input[type="password"] {
+    padding: 7px 20px;
+    max-width: 400px;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.ssl-zen-steps-container input:focus {
+    box-shadow: none;
+}
+
+.ssl-zen-steps-container .text {
+    padding: 7px 20px;
+    max-width: 400px;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    display: block;
+    cursor: not-allowed;
+    background: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #BFBFBF;
+}
+
+.ssl-zen-steps-container input[type="checkbox"] {
+}
+
+.ssl-zen-steps-container input.error {
+    border-color: #f86262;
+}
+
+.checkbox.checkbox-success.checkbox-circle.agree-terms-checkbox {
+    margin-top: 62px;
+    font-size: 18px;
+}
+
+#tab1 main, #frmstep1 main {
+    margin-top: 33px;
+    padding-left: 32px;
+}
+
+.ssl-zen-steps-container .form-group {
+    margin-bottom: 5px;
+}
+
+.tooltip.top {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #3e3f42;
+}
+
+.tooltip.right {
+    margin-left: 10px;
+}
+
+.tooltip.right .tooltip-arrow {
+    top: calc(50% - .4rem) !important;
+    width: .8rem;
+    height: .8rem;
+    position: absolute;
+}
+
+.tooltip.right .tooltip-arrow:after {
+    content: '';
+    display: block;
+    border-width: 0.4rem 0.4rem 0.4rem 0;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: #3e3f42;
+    position: absolute;
+    left: -6.7px;
+}
+
+.tooltip.right .tooltip-inner {
+    text-align: left;
+}
+
+.tooltip-inner {
+    max-width: 375px;
+    width: 375px;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #3e3f42;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.tooltip.in {
+    opacity: 1
+}
+
+.toggle.btn.success.btn-default.off {
+    margin-top: -3px;
+    padding: 9px 8px 0 0;
+}
+
+.toggle.btn.success.btn-primary {
+    min-height: 20px;
+    min-width: 45px;
+    margin-top: -3px;
+    max-width: 45px;
+    max-height: 20px;
+}
+
+.cf-checkbox-toggle {
+    margin: 25px 0 15px;
+    padding-left: 20px;
+}
+
+.ssl-zen-steps-container .media-left {
+    padding-right: 8px;
+}
+
+.sslzen-info * {
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.sslzen-link-underline {
+    text-decoration: underline !important;
+}
+
+.scan-ssl-stackpath:not(.disabled) svg path {
+    fill: #ffffff;
+}
+
+@keyframes blink {
+    50% {
+        color: transparent
+    }
+}
+
+.loader__dot {
+    animation: 1s blink infinite
+}
+
+.loader__dot:nth-child(2) {
+    animation-delay: 250ms
+}
+
+.loader__dot:nth-child(3) {
+    animation-delay: 500ms
+}
+
+.sslzen-nowrap {
+    white-space: pre-wrap !important;
+}
+
+/*=========== responsive styles ========*/
+@media screen and (max-width: 1200px) {
+    .ssl-zen-install-certificate-container div.cpanel div.body ul > li > div {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .progress-list li p {
+        font-size: 11px;
+    }
+
+    .progress-list:before {
+        max-width: 390px
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .progress-list {
+        margin-left: 10px;
+    }
+
+    .controls {
+        padding-bottom: 0;
+    }
+
+    .progress-list li p {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .checkbox {
+        margin: 20px auto;
+    }
+
+}

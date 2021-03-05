@@ -1,0 +1,58 @@
+.solbox-deactivate-dialog
+{
+	text-align: left;
+	width: auto;
+}
+
+
+
+
+.solbox-deactivate-dialog h2
+{
+	color: gray;
+	font-variant: small-caps;
+	font-size: 1.2em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid lightgray;
+	
+}
+
+
+.solbox-deactivate-dialog {
+	border-radius: 5px;
+}
+.solbox-deactivate-dialog .plugin-name {
+  display: block;
+  width: 100%;
+  display: none;
+  margin-top: 10px;
+}
+.solbox-deactivate-dialog .others-comments {
+	width: 100%;
+	display: none;
+}
+.solbox-deactivate-dialog .skip {
+  font-size: 12px;
+  color: #a4afb7;
+  background: none;
+  float: left;
+  width: auto;
+  text-decoration: none;
+}
+.solbox-deactivate-dialog .solbox-deactivate-reasons {
+  font-size: 13px;
+  color: #6d7882;
+}
+.solbox-deactivate-dialog .solbox-deactivate-reasons li:not(:last-child) {
+  margin-bottom: 13px;
+}
+.solbox-deactivate-dialog .deactivate-message {
+  font-weight: 700;
+  font-size: 15px;
+  color: #495157;
+  line-height: 1.4;
+}
+.solbox-deactivate-dialog .solbox-deactivate-dialog-buttons {
+	margin-top: 30px;
+	text-align: right;
+}

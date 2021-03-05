@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209.754" height="139.097" viewBox="0 0 209.754 139.097">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.849" y1="0.26" x2="0.134" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6aaff"/>
+      <stop offset="1" stop-color="#3488ed"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path" d="M8.178,0h193.4a8.178,8.178,0,0,1,8.178,8.178v122.74a8.178,8.178,0,0,1-8.178,8.178H8.178A8.178,8.178,0,0,1,0,130.919V8.178A8.178,8.178,0,0,1,8.178,0Z" transform="translate(0)" opacity="0.365" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_193" data-name="Group 193" transform="translate(-463.5 -478.043)">
+    <g id="Dashboard_3" data-name="Dashboard 3" transform="translate(463.5 478.043)">
+      <path id="Path-2" data-name="Path" d="M8.178,0h193.4a8.178,8.178,0,0,1,8.178,8.178v122.74a8.178,8.178,0,0,1-8.178,8.178H8.178A8.178,8.178,0,0,1,0,130.919V8.178A8.178,8.178,0,0,1,8.178,0Z" transform="translate(0 0)" opacity="0.365" fill="url(#linear-gradient)"/>
+      <g id="Dashboard_3-2" data-name="Dashboard 3" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <g id="Group_25" data-name="Group 25" transform="translate(26.542 50.845)">
+          <path id="Path-3" data-name="Path" d="M5.452,0H51.8a5.452,5.452,0,0,1,5.452,5.452V59.974A5.452,5.452,0,0,1,51.8,65.427H5.452A5.452,5.452,0,0,1,0,59.974V5.452A5.452,5.452,0,0,1,5.452,0Z" transform="translate(0 5.452)" fill="#373a5b" opacity="0.1"/>
+          <path id="Path-4" data-name="Path" d="M5.452,0H51.8a5.452,5.452,0,0,1,5.452,5.452V59.974A5.452,5.452,0,0,1,51.8,65.427H5.452A5.452,5.452,0,0,1,0,59.974V5.452A5.452,5.452,0,0,1,5.452,0Z" transform="translate(0 0)" fill="#fff"/>
+          <path id="Oval" d="M10.632,21.264A10.632,10.632,0,0,1,3.114,3.114,10.632,10.632,0,0,1,18.15,18.15,10.563,10.563,0,0,1,10.632,21.264Zm0-16.357a5.725,5.725,0,1,0,5.725,5.725A5.731,5.731,0,0,0,10.632,4.907Z" transform="translate(17.992 14.819)" fill="#fb8fb4"/>
+        </g>
+        <g id="Group_25_Copy_2" data-name="Group 25 Copy 2" transform="translate(95.486 50.845)" opacity="0.4">
+          <path id="Path-5" data-name="Path" d="M5.452,0H51.8a5.452,5.452,0,0,1,5.452,5.452V59.974A5.452,5.452,0,0,1,51.8,65.427H5.452A5.452,5.452,0,0,1,0,59.974V5.452A5.452,5.452,0,0,1,5.452,0Z" transform="translate(0 5.452)" fill="#373a5b" opacity="0.1"/>
+          <path id="Path-6" data-name="Path" d="M5.452,0H51.8a5.452,5.452,0,0,1,5.452,5.452V59.974A5.452,5.452,0,0,1,51.8,65.427H5.452A5.452,5.452,0,0,1,0,59.974V5.452A5.452,5.452,0,0,1,5.452,0Z" transform="translate(0 0)" fill="#fff"/>
+          <path id="Oval-2" data-name="Oval" d="M10.632,21.264A10.632,10.632,0,0,1,3.114,3.114,10.632,10.632,0,0,1,18.15,18.15,10.563,10.563,0,0,1,10.632,21.264Zm0-16.357a5.725,5.725,0,1,0,5.725,5.725A5.731,5.731,0,0,0,10.632,4.907Z" transform="translate(17.992 14.819)" fill="#fb8fb4"/>
+        </g>
+        <g id="Group_25_Copy_3" data-name="Group 25 Copy 3" transform="translate(164.429 50.845)" opacity="0.4">
+          <path id="Path-7" data-name="Path" d="M5.452,0H51.8a5.452,5.452,0,0,1,5.452,5.452V59.974A5.452,5.452,0,0,1,51.8,65.427H5.452A5.452,5.452,0,0,1,0,59.974V5.452A5.452,5.452,0,0,1,5.452,0Z" transform="translate(0 5.452)" fill="#373a5b" opacity="0.1"/>
+          <path id="Path-8" data-name="Path" d="M5.452,0H51.8a5.452,5.452,0,0,1,5.452,5.452V59.974A5.452,5.452,0,0,1,51.8,65.427H5.452A5.452,5.452,0,0,1,0,59.974V5.452A5.452,5.452,0,0,1,5.452,0Z" transform="translate(0 0)" fill="#fff"/>
+          <path id="Oval-3" data-name="Oval" d="M10.632,21.264A10.632,10.632,0,0,1,3.114,3.114,10.632,10.632,0,0,1,18.15,18.15,10.563,10.563,0,0,1,10.632,21.264Zm0-16.357a5.725,5.725,0,1,0,5.725,5.725A5.731,5.731,0,0,0,10.632,4.907Z" transform="translate(17.992 14.819)" fill="#fb8fb4"/>
+        </g>
+        <path id="Path-9" data-name="Path" d="M8.178,0h193.4a8.178,8.178,0,0,1,8.178,8.178v14.7H0V8.178A8.178,8.178,0,0,1,8.178,0Z" fill="#fff" opacity="0.2"/>
+        <circle id="Oval-4" data-name="Oval" cx="2.726" cy="2.726" r="2.726" transform="translate(12.804 8.712)" fill="#99ff87"/>
+        <circle id="Oval_Copy_58" data-name="Oval Copy 58" cx="2.726" cy="2.726" r="2.726" transform="translate(23.708 8.712)" fill="#fb7eb7"/>
+        <circle id="Oval_Copy_59" data-name="Oval Copy 59" cx="2.726" cy="2.726" r="2.726" transform="translate(34.613 8.712)" fill="#fb7eb7"/>
+      </g>
+    </g>
+  </g>
+</svg>

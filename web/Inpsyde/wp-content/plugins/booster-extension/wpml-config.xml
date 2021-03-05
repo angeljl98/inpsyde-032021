@@ -1,0 +1,14 @@
+<wpml-config>
+  <admin-texts>
+    <key name="twp_be_options_settings">
+      <key name="social_share_title" />
+      <key name="social_share_email_subject" />
+      <key name="social_share_email_body" />
+      <key name="twp_be_show_author_title" />
+      <key name="twp_be_readtime_label" />
+      <key name="twp_be_minute_label" />
+      <key name="twp_be_second_label" />
+      <key name="twp_be_views_label" />
+    </key>
+  </admin-texts>
+</wpml-config>

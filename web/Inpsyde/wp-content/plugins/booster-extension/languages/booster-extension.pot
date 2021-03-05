@@ -1,0 +1,715 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Booster Extension\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-04 06:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: inc/backend/like-count-metabox.php:50 inc/backend/like-count-metabox.php:51
+#: inc/backend/like-count-metabox.php:76 inc/backend/like-count-metabox.php:77
+msgid " Dislikes"
+msgstr ""
+
+#: inc/backend/like-count-metabox.php:41 inc/backend/like-count-metabox.php:72
+msgid " Likes"
+msgstr ""
+
+#: template/comments.php:75
+msgid "(Add your review)"
+msgstr ""
+
+#: template/comments.php:58
+msgid "0%"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:46
+msgid "About Author"
+msgstr ""
+
+#: inc/backend/activation.php:5
+msgid "About Post Author"
+msgstr ""
+
+#: inc/backend/main-page.php:250
+msgid "Alignment"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:63
+msgid "Alignment:"
+msgstr ""
+
+#: inc/frontend/post-reactions.php:166 inc/frontend/post-reactions.php:168
+msgid "Angry"
+msgstr ""
+
+#: inc/backend/main-page.php:126
+msgid "App ID"
+msgstr ""
+
+#: inc/backend/main-page.php:131
+msgid "App Secret Key"
+msgstr ""
+
+#: inc/backend/main-page.php:42
+msgid "Author Box"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:49
+msgid "Author Type:"
+msgstr ""
+
+#: template/comments.php:23
+msgid "Average Rating"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:97
+msgid "BE: Author Widget"
+msgstr ""
+
+#: booster-extension.php:203
+msgid "Behance"
+msgstr ""
+
+#: booster-extension.php:206
+msgid "Blogger"
+msgstr ""
+
+#. Name of the plugin
+#: inc/backend/main-page.php:14
+msgid "Booster Extension"
+msgstr ""
+
+#: inc/backend/main-page.php:20
+msgid ""
+"Booster Extension is a simple and lightweight WordPress plugin to help you "
+"supercharge your WordPress site. There’re numerous plugins in the WordPress "
+"repository, however, if you install them all, there’s inconsistency in their "
+"backend and frontend styles and possible plugin conflicts."
+msgstr ""
+
+#: inc/backend/main-page.php:571
+msgid "Browse our free themes."
+msgstr ""
+
+#: inc/backend/main-page.php:562
+msgid "Browse our premium themes."
+msgstr ""
+
+#: inc/backend/main-page.php:254 inc/backend/twp-be-author-widget.php:69
+msgid "Center"
+msgstr ""
+
+#: inc/backend/main-page.php:568
+msgid ""
+"Check out our collection of Free WordPress Themes that are clean, simple and "
+"feature-rich."
+msgstr ""
+
+#: inc/backend/main-page.php:559
+msgid ""
+"Check out our simple, clean and responsive Premium WordPress Themes that "
+"come with an array of crucial features with a superior functionality."
+msgstr ""
+
+#: inc/backend/widget-base-class.php:247
+msgid "Choose Image"
+msgstr ""
+
+#: template/comments.php:120
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: template/comments.php:98
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/backend/main-page.php:582
+msgid "Create Support Ticket"
+msgstr ""
+
+#: booster-extension.php:201
+msgid "Delicious"
+msgstr ""
+
+#: inc/backend/main-page.php:161 inc/backend/main-page.php:235
+#: inc/backend/main-page.php:309 inc/backend/main-page.php:367
+#: inc/backend/main-page.php:429 inc/backend/main-page.php:479
+#: inc/backend/main-page.php:528
+msgid "Display Settings"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:39
+msgid "Displays authors details in post."
+msgstr ""
+
+#: booster-extension.php:205
+msgid "Dribbble"
+msgstr ""
+
+#: inc/frontend/social-share.php:313
+msgid "Email"
+msgstr ""
+
+#: inc/backend/main-page.php:116
+msgid "Email Body"
+msgstr ""
+
+#: inc/backend/main-page.php:111
+msgid "Email Subject"
+msgstr ""
+
+#: inc/backend/main-page.php:313
+msgid "Enable Like/Dislike Button "
+msgstr ""
+
+#: inc/backend/main-page.php:535
+msgid "Enable Post Rating"
+msgstr ""
+
+#: inc/backend/main-page.php:436
+msgid "Enable Post Reactions"
+msgstr ""
+
+#: inc/backend/main-page.php:372
+msgid "Enable Read Time "
+msgstr ""
+
+#: inc/backend/main-page.php:378
+msgid "Enable Second"
+msgstr ""
+
+#: inc/backend/main-page.php:487
+msgid "Enable Tracking Post Visit"
+msgstr ""
+
+#: inc/frontend/post-reactions.php:127 inc/frontend/post-reactions.php:130
+msgid "Excited"
+msgstr ""
+
+#: inc/backend/main-page.php:331
+msgid "Face Icon"
+msgstr ""
+
+#: booster-extension.php:182 inc/frontend/social-share.php:106
+msgid "Facebook"
+msgstr ""
+
+#: inc/backend/main-page.php:224 inc/backend/main-page.php:347
+#: inc/backend/main-page.php:416 inc/backend/main-page.php:464
+#: inc/backend/main-page.php:514
+msgid "Filter"
+msgstr ""
+
+#: booster-extension.php:207
+msgid "Flickr"
+msgstr ""
+
+#: inc/backend/main-page.php:592
+msgid "Found a bug? Please open an issue on"
+msgstr ""
+
+#: booster-extension.php:192
+msgid "FourSquare"
+msgstr ""
+
+#: inc/backend/main-page.php:566
+msgid "Free Themes"
+msgstr ""
+
+#: inc/backend/main-page.php:588
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: booster-extension.php:190
+msgid "Github"
+msgstr ""
+
+#: inc/backend/main-page.php:26
+msgid "Give it a 5 star rating"
+msgstr ""
+
+#: inc/frontend/post-reactions.php:88 inc/frontend/post-reactions.php:91
+msgid "Happy"
+msgstr ""
+
+#: inc/backend/main-page.php:592
+msgid "Help Page"
+msgstr ""
+
+#: inc/backend/activation.php:17
+msgid "Hey I Got Something For You"
+msgstr ""
+
+#: inc/backend/main-page.php:219 inc/backend/main-page.php:345
+#: inc/backend/main-page.php:414 inc/backend/main-page.php:462
+#: inc/backend/main-page.php:510
+msgid "Hook"
+msgstr ""
+
+#: inc/backend/main-page.php:209 inc/backend/main-page.php:286
+#: inc/backend/main-page.php:338 inc/backend/main-page.php:407
+#: inc/backend/main-page.php:455 inc/backend/main-page.php:503
+msgid "How To Use"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.themeinwp.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.themeinwp.com/booster-extension/"
+msgstr ""
+
+#: inc/backend/main-page.php:591
+msgid ""
+"If your answer can not be found in the resources listed above, please use "
+"the support forums on WordPress.org."
+msgstr ""
+
+#: booster-extension.php:184
+msgid "Instagram"
+msgstr ""
+
+#: inc/backend/main-page.php:585
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/backend/main-page.php:252 inc/backend/twp-be-author-widget.php:67
+msgid "Left"
+msgstr ""
+
+#: inc/backend/main-page.php:29
+msgid "Like and follow"
+msgstr ""
+
+#: inc/backend/main-page.php:328
+msgid "Like Icon Type"
+msgstr ""
+
+#: inc/backend/main-page.php:24
+msgid "Like this plugin?"
+msgstr ""
+
+#: inc/backend/like-count-metabox.php:93
+msgid "Like/Dislike"
+msgstr ""
+
+#: inc/backend/like-count-metabox.php:17
+msgid "Like/Dislike Count"
+msgstr ""
+
+#: booster-extension.php:186 inc/frontend/social-share.php:259
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/backend/main-page.php:578
+msgid "Looking for help?"
+msgstr ""
+
+#: inc/backend/activation.php:32 inc/backend/main-page.php:362
+#: inc/frontend/read-time.php:22
+msgid "Minute"
+msgstr ""
+
+#: inc/backend/main-page.php:394
+msgid "Minute Label"
+msgstr ""
+
+#: inc/backend/main-page.php:196
+msgid "New Window"
+msgstr ""
+
+#: inc/backend/main-page.php:195
+msgid "New Window Tab"
+msgstr ""
+
+#: inc/backend/main-page.php:447
+msgid "Number"
+msgstr ""
+
+#. 1: title.
+#: template/comments.php:92
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: inc/backend/main-page.php:142
+msgid "Open Share Count."
+msgstr ""
+
+#: inc/backend/main-page.php:192
+msgid "Open Share Link On"
+msgstr ""
+
+#: inc/backend/main-page.php:446
+msgid "Percent"
+msgstr ""
+
+#: booster-extension.php:185 inc/frontend/social-share.php:232
+msgid "Pinterest"
+msgstr ""
+
+#: inc/backend/main-page.php:141
+msgid ""
+"Please Register your website on Open Share Count to get twitter share count "
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:54
+msgid "Post Author:"
+msgstr ""
+
+#: inc/backend/main-page.php:45
+msgid "Post Like/Dislike"
+msgstr ""
+
+#: inc/backend/main-page.php:51
+msgid "Post Reactions"
+msgstr ""
+
+#: inc/backend/main-page.php:57
+msgid "Posts Rating"
+msgstr ""
+
+#: inc/backend/main-page.php:54
+msgid "Posts Visit Count"
+msgstr ""
+
+#: inc/backend/main-page.php:557
+msgid "Premium Themes"
+msgstr ""
+
+#: inc/backend/main-page.php:260
+msgid "Profile Image layout"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:73
+msgid "Profile Image layout:"
+msgstr ""
+
+#: inc/backend/comment.php:10 inc/backend/comment.php:143
+#: inc/backend/comment.php:156
+msgid "Rating"
+msgstr ""
+
+#: inc/backend/main-page.php:444
+msgid "Reactions Progress Type"
+msgstr ""
+
+#: inc/backend/main-page.php:48 inc/backend/main-page.php:360
+#: inc/frontend/read-time.php:20
+msgid "Read Time"
+msgstr ""
+
+#: inc/backend/activation.php:31
+msgid "Read Time:"
+msgstr ""
+
+#: inc/backend/main-page.php:389
+msgid "Readtime Label"
+msgstr ""
+
+#: inc/backend/main-page.php:384
+msgid "Readtime Words Per Minute"
+msgstr ""
+
+#: inc/backend/main-page.php:555
+msgid "Recommendations"
+msgstr ""
+
+#: booster-extension.php:198
+msgid "Reddit"
+msgstr ""
+
+#: inc/backend/widget-base-class.php:258
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: inc/backend/main-page.php:253 inc/backend/twp-be-author-widget.php:68
+msgid "Right"
+msgstr ""
+
+#: inc/backend/main-page.php:263 inc/backend/twp-be-author-widget.php:78
+msgid "Round"
+msgstr ""
+
+#: booster-extension.php:209
+msgid "RSS"
+msgstr ""
+
+#: inc/frontend/post-reactions.php:108 inc/frontend/post-reactions.php:111
+msgid "Sad"
+msgstr ""
+
+#: inc/backend/main-page.php:194
+msgid "Same Window"
+msgstr ""
+
+#: inc/backend/main-page.php:548
+msgid "Save Settings"
+msgstr ""
+
+#: inc/backend/activation.php:33 inc/backend/main-page.php:363
+#: inc/frontend/read-time.php:23
+msgid "Second"
+msgstr ""
+
+#: inc/backend/main-page.php:399
+msgid "Second Label"
+msgstr ""
+
+#: inc/backend/widget-base-class.php:247
+msgid "Select Image"
+msgstr ""
+
+#: inc/backend/activation.php:22 inc/frontend/social-share.php:29
+msgid "Share"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Share your website urls in most popular social media platform and show share "
+"counts on your website with various designs. Calculate read time, singe post "
+"like and dislike counter, Author box with author details and reaction "
+"feature."
+msgstr ""
+
+#: inc/backend/main-page.php:214 inc/backend/main-page.php:343
+#: inc/backend/main-page.php:412 inc/backend/main-page.php:460
+#: inc/backend/main-page.php:508
+msgid "Shortcode"
+msgstr ""
+
+#: inc/backend/main-page.php:269
+msgid "Show Author Email"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:82
+msgid "Show Author Email:"
+msgstr ""
+
+#: inc/backend/main-page.php:279
+msgid "Show Author Role"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:92
+msgid "Show Author Role:"
+msgstr ""
+
+#: inc/backend/main-page.php:239
+msgid "Show Author Section"
+msgstr ""
+
+#: inc/backend/main-page.php:274
+msgid "Show Author URL"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:87
+msgid "Show Author URL:"
+msgstr ""
+
+#: inc/backend/main-page.php:323
+msgid "Show Like/Dislike On Archive Page"
+msgstr ""
+
+#: inc/backend/main-page.php:319
+msgid "Show Like/Dislike On Single Post"
+msgstr ""
+
+#: inc/backend/main-page.php:188
+msgid "Show On Archive Page"
+msgstr ""
+
+#: inc/backend/main-page.php:183
+msgid "Show On Single Post"
+msgstr ""
+
+#: inc/backend/main-page.php:172
+msgid "Show Social Share before content"
+msgstr ""
+
+#: inc/backend/main-page.php:203
+msgid "Show Social Share Count"
+msgstr ""
+
+#: booster-extension.php:197
+msgid "Skype"
+msgstr ""
+
+#: inc/frontend/post-reactions.php:146 inc/frontend/post-reactions.php:149
+msgid "Sleepy"
+msgstr ""
+
+#: booster-extension.php:196
+msgid "Snapchat"
+msgstr ""
+
+#: inc/backend/main-page.php:39
+msgid "Social Share"
+msgstr ""
+
+#: inc/backend/main-page.php:176
+msgid "Social Share Title"
+msgstr ""
+
+#: booster-extension.php:202
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:53
+msgid "Specific Author"
+msgstr ""
+
+#: booster-extension.php:208
+msgid "spotify"
+msgstr ""
+
+#: inc/backend/main-page.php:262 inc/backend/twp-be-author-widget.php:77
+msgid "Square"
+msgstr ""
+
+#: booster-extension.php:199
+msgid "Stack Overflow"
+msgstr ""
+
+#: booster-extension.php:204
+msgid "Steam"
+msgstr ""
+
+#: inc/frontend/post-reactions.php:184 inc/frontend/post-reactions.php:186
+msgid "Surprise"
+msgstr ""
+
+#: inc/backend/main-page.php:21
+msgid ""
+"That’s why we've created Booster Extension, essentials components for every "
+"WordPress blog or magazine."
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeInWP"
+msgstr ""
+
+#: inc/backend/main-page.php:330
+msgid "Thumb Icon"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:44
+msgid "Title:"
+msgstr ""
+
+#: booster-extension.php:195
+msgid "Tumblr"
+msgstr ""
+
+#: booster-extension.php:194
+msgid "Twitch"
+msgstr ""
+
+#: booster-extension.php:183 inc/frontend/social-share.php:168
+msgid "Twitter"
+msgstr ""
+
+#: inc/backend/widget-base-class.php:247
+msgid "Upload"
+msgstr ""
+
+#: inc/backend/twp-be-author-widget.php:58
+msgid "User ID:"
+msgstr ""
+
+#: inc/backend/main-page.php:484 inc/backend/twp-be-views-count.php:15
+#: inc/backend/twp-be-views-count.php:168
+msgid "Views"
+msgstr ""
+
+#: inc/backend/main-page.php:493
+msgid "Views Label"
+msgstr ""
+
+#: inc/backend/activation.php:34
+msgid "Views:"
+msgstr ""
+
+#: booster-extension.php:188
+msgid "Vimeo"
+msgstr ""
+
+#: booster-extension.php:193 inc/frontend/social-share.php:286
+msgid "VK"
+msgstr ""
+
+#: inc/backend/main-page.php:579
+msgid "We have some resources available to help you in the right direction."
+msgstr ""
+
+#: booster-extension.php:189
+msgid "Whatsapp"
+msgstr ""
+
+#: inc/backend/main-page.php:244
+msgid "Widget Author Box Title"
+msgstr ""
+
+#: booster-extension.php:191
+msgid "WordPress"
+msgstr ""
+
+#: booster-extension.php:200
+msgid "Xing"
+msgstr ""
+
+#: inc/backend/main-page.php:296
+msgid ""
+"You can return false to hide after content Author Box on single post by "
+"using below filter."
+msgstr ""
+
+#: inc/backend/main-page.php:348
+msgid ""
+"You can return false to hide after content Like Dislike button by using "
+"below filter."
+msgstr ""
+
+#: inc/backend/main-page.php:465
+msgid ""
+"You can return false to hide after content Post Reaction by using below "
+"filter."
+msgstr ""
+
+#: inc/backend/main-page.php:417
+msgid ""
+"You can return false to hide before content Read Time calculate by using "
+"below filter."
+msgstr ""
+
+#: inc/backend/main-page.php:225
+msgid ""
+"You can return false to hide Social Share after content by using below "
+"filter."
+msgstr ""
+
+#: inc/backend/comment.php:111
+msgid ""
+"Your comment is awaiting moderation. This is a preview, your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#: booster-extension.php:187
+msgid "Youtube"
+msgstr ""

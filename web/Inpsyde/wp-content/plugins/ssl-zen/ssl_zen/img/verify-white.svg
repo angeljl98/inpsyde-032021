@@ -1,0 +1,20 @@
+<svg id="Icon_20px_done_1477_Copy" data-name="Icon/20px/done [#1477] Copy" xmlns="http://www.w3.org/2000/svg"
+     width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Icon_20px_done_1477_" data-name="Icon/20px/done [#1477]"
+                  d="M18,20H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H18a2,2,0,0,1,2,2V18A2,2,0,0,1,18,20ZM3,2A1,1,0,0,0,2,3V17a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1ZM9.071,12.757a1.493,1.493,0,0,1-1.062-.439L6.242,10.55A1,1,0,0,1,7.656,9.136l.706.707a1,1,0,0,0,1.418,0l2.827-2.828a1,1,0,0,1,1.414,1.415l-3.888,3.888A1.493,1.493,0,0,1,9.071,12.757Z"
+                  fill="rgba(255,255,255,0)"/>
+        </clipPath>
+    </defs>
+    <path id="Icon_20px_done_1477_2" data-name="Icon/20px/done [#1477]"
+          d="M18,20H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H18a2,2,0,0,1,2,2V18A2,2,0,0,1,18,20ZM3,2A1,1,0,0,0,2,3V17a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1ZM9.071,12.757a1.493,1.493,0,0,1-1.062-.439L6.242,10.55A1,1,0,0,1,7.656,9.136l.706.707a1,1,0,0,0,1.418,0l2.827-2.828a1,1,0,0,1,1.414,1.415l-3.888,3.888A1.493,1.493,0,0,1,9.071,12.757Z"
+          fill="rgba(255,255,255,0)"/>
+    <g clip-path="url(#clip-path)">
+        <g id="_Atoms_Colour_Grey_Darker" data-name="⚙️Atoms/Colour/Grey Darker" transform="translate(-1 -1)">
+            <rect id="_Atoms_Colour_Grey_Darker_background" data-name="⚙️Atoms/Colour/Grey Darker background" width="22"
+                  height="22" fill="rgba(0,0,0,0)"/>
+            <rect id="Rectangle" width="22" height="22" fill="#fff"/>
+        </g>
+    </g>
+</svg>

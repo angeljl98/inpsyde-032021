@@ -1,0 +1,70 @@
+.mate-repeater-fields {
+    display: none;
+}
+
+.mate-repeater-fields.twp-sortable-active.extended {
+    display: block;
+}
+
+.mate-repeater-field-control-wrap .mate-repeater-field-control {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    margin-bottom: 15px;
+}
+
+.title-rep-wrap {
+    padding: 10px 10px;
+    margin: 0 auto;
+}
+
+.mate-repeater-fields {
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 10px 40px;
+}
+
+.twp-filter-icon,
+.title-rep-wrap .mate-repeater-field-title {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.title-rep-wrap .dashicons-arrow-down.twp-filter-icon {
+    float: right;
+}
+
+.title-rep-wrap .twp-filter-icon:before {
+    font-size: 20px;
+}
+
+#customize-theme-controls .mate-add-control-field {
+    background: #6540ff !important;
+    background-image: -moz-linear-gradient(-4deg, #8828ff 28%, #4456ff 81%, #0084ff 100%) !important;
+    background-image: -webkit-linear-gradient(-4deg, #8828ff 28%, #4456ff 81%, #0084ff 100%) !important;
+    background-image: -ms-linear-gradient(-4deg, #8828ff 28%, #4456ff 81%, #0084ff 100%) !important;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+#customize-theme-controls .mate-add-control-field:hover,
+#customize-theme-controls .mate-add-control-field:focus {
+    filter: alpha(opacity=84);
+    opacity: 0.84;
+}
+
+.mate-fields .customize-control-title {
+    margin-top: 10px;
+}
+
+.mate-fields.mate-type-checkbox label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
