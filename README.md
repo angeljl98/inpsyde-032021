@@ -6,7 +6,7 @@ This repository is an example of how to use Laragon and WordPress. It uses our l
 
 1. Open up a command line prompt.
 2. Clone the repo.
-3. You should now have a fully functional local WordPress site at [``](http://wordpress-nginx.docker.amazee.io)!
+3. You should now have a fully functional local WordPress site at (https://github.com/angeljl98/inpsyde-032021)!
 
 ## WordPress and Composer
 
